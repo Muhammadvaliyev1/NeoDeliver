@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.max-h-0 {
+	max-height: 0;
+}
+
+.group:focus .group-focus\:max-h-40 {
+	max-height: 10rem;
+}
+
+.group:focus #rotater {
+	@apply rotate-0
+}
+
+.clicker:focus #border{
+	@apply border-primary-700
+}
+
+.liner {
+	background: linear-gradient(7.58deg, rgba(255, 255, 255, 0) -50.62%, rgba(255, 255, 255, 0) 33.58%, rgba(29, 70, 243, 0.2) 132.08%);
+}
