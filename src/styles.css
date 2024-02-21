@@ -34,3 +34,7 @@ input:checked + label {
 tr {
 	border-radius: 16px, 16px, 0px, 0px;
 }
+
+#hamburger-menu {
+	transition: position 0.7s, left 0.7s
+}
