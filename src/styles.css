@@ -21,3 +21,16 @@
 .liner {
 	background: linear-gradient(7.58deg, rgba(255, 255, 255, 0) -50.62%, rgba(255, 255, 255, 0) 33.58%, rgba(29, 70, 243, 0.2) 132.08%);
 }
+
+.linerSegment {
+	background: linear-gradient(7.58deg, rgba(255, 255, 255, 0) -50.62%, rgba(255, 255, 255, 0) 33.58%, rgba(29, 70, 243, 0.2) 132.08%);
+}
+
+/* The styling below is custom in that we require the :checked Pseudo class, which Tailwind doesn't offer out of the box. However the styling (border color and box shadow) the below applies is native Tailwind. */
+input:checked + label {
+	border-color: #1D46F3;
+}
+
+tr {
+	border-radius: 16px, 16px, 0px, 0px;
+}
